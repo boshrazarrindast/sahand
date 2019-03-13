@@ -31,14 +31,21 @@ body{
   font-size: 90%;
 }
 
-
+.container{
+  width: 986px;
+  margin: 0 auto;
+  border: 1px solid green;
+  height: 350px;
+}
 .main{
   background-color: #e5e4d7;
   margin-top: 10px;
   margin-right: 280px;
   margin-bottom: 10px;
   margin-left: 220px;
-  border-radius: 10px;
+  borde
+  border: 1px solid green;
+  height: 1200px;r-radius: 10px;
   padding: 20px;
   font-size: 110%;
 }
