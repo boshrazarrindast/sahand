@@ -3,8 +3,10 @@ body{
   background-color: #9c9f84;
   margin: 0px;
   font-family: verdana, georgia, serif;
-  font-size: 14px;
+  font-size: 16px;
 }
+
+/* ============ containers =================*/
 #header{
   background-color: #5c755e;
   margin: 10px;
@@ -36,6 +38,7 @@ body{
   margin: 0 auto;
   border: 1px solid green;
   height: 350px;
+  padding-left: 20px;
 }
 .main{
   background-color: #e5e4d7;
@@ -73,7 +76,7 @@ body{
   width: 160px;
   clear: left;
 }
-/*============ Header =========*/
+/*============ element selector =========*/
 h1{
   font-size: 120%;
   color: #ce282e;
@@ -94,7 +97,7 @@ h3{
 }
 
 /*=================Header buttons====================*/
-#novbar, ul{
+#navbar ul{
   list-style-type: none;
   padding: 5px;
   margin: 10px;
@@ -102,11 +105,11 @@ h3{
   border-radius: 5px;
 
 }
-#novbar, ul, li{
+#navbar ul li{
   display: inline;
 }
 
-#novbar, ul, li, a {
+#navbar ul li a {
   text-decoration: none;
   font-family: arial;
   padding: .2em 1em;
@@ -114,34 +117,11 @@ h3{
   background-color: #000;
   line-height: 35px;
 }
-#novbar, a:hover {
+#navbar a:hover {
   color: #000;
   background-color: #fff;
 }
-/*================= footer buttons====================*/
-#footer ul {
-  list-style-type: none;
-  padding: 5px;
-  margin: 10px;
-  text-align: center;
-  background-color: #5c755e;
-}
-#footer li{
-  display: inline;
-}
-
-#footer a {
-  text-decoration: none;
-  font-family: arial;
-  padding: .2em 1em;
-  color: #efe5d0;
-  background-color: #5c755e;
-  line-height: 35px;
-}
-#footer a:hover {
-  color: #000;
-  background-color: #fff;
-}
+/*===============heading images =========== */
 #header img{
   position: absolute;
   top: 10px;
@@ -149,4 +129,28 @@ h3{
   height: 90px;
   width: 250px;
   border-radius: 5px;
+}
+/*================= footer buttons====================*/
+#footer ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+#footer ul li{
+  display: inline;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: .2em 1em;
+  color: #fff;
+  background-color: #000;
+  line-height: 35px;
+}
+#footer a:hover {
+  color: #000;
+  background-color: #fff;
 }
